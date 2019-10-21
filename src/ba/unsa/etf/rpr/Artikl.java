@@ -11,6 +11,11 @@ public class Artikl {
         this.kod = kod;
     }
 
+    @Override
+    public String toString() {
+        return "(" + naziv + " " + kod + " " + cijena + ")";
+    }
+
     public String getNaziv() {
         return naziv;
     }
